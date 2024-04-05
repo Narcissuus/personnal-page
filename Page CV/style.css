@@ -1,0 +1,200 @@
+
+
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 900
+
+.playfair-display-<uniquifier> {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+body {
+    font-family: "Playfair Display", serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fbd9e399;
+   /* background: -webkit-linear-gradient(to top, #ffc3a0, #FFAFBD);  /* Chrome 10-25, Safari 5.1-6 */
+    background:  #FFFFFF;
+    color: #5E6167;
+    text-align: center;
+    letter-spacing: 1.03pt;
+    width: 800px;
+    margin: 20px auto;
+}
+
+.header-content {
+    
+    background:#fbd9e399;
+    color: #333;
+    text-align:center;
+    padding: 20px ;
+   
+    box-shadow: 0 0 15px #C0437E;
+    border-radius: 15px;
+    font-weight: bolder;
+    font-size: x-large;
+    
+}
+.header-content p{
+font-weight: 400;
+}
+
+.cards {
+    padding: 20px 10px;
+    background-color: #FFFFFF;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #e974ab9d;
+    justify-content: center;
+}
+.columns{
+    display: flex;
+}
+.banniere{
+    display: flex;
+}
+h1 {
+    text-align: center, auto;
+    padding: 1cm 0,5cm;
+    vertical-align: middle;
+}
+h2 {
+    color: #333;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    
+}
+h3{
+    font-weight: 800;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    color: #333;
+}
+li{
+    list-style-type: none;
+}
+
+
+.btn-pink {
+    color: #333;
+    background-color: #f7e7ed;
+    font-weight: bold;
+    border-radius:  12px;
+    text-decoration: none;
+    padding: 15px 30px;
+    display:  flex;
+    font-size: 20px; 
+    margin: 4px 70px;
+    margin-top: 30px;
+    justify-content: center;
+    box-shadow: 0 0 10px #5e6167d8;
+}
+.btn-pink:hover{
+    background: #BD2E66;
+    color:black;
+    padding: 20px 30px;
+    font-weight: bolder;
+    font-size: 24px;
+    justify-content: center;
+}
+
+.fab{
+    font-size: 28px; 
+    color:#BD2E66;
+}
+
+.btn-pink p{
+    margin: 0;
+    padding: 0;
+    padding-right: 20px;
+}
+.btns{
+    display: flex;
+}
+img{
+    height: 150px;
+    border-radius:50% ;
+    text-align: center;
+    object-fit: cover;
+    width: 150px;
+    
+}
+.fa-brands-fa-google{
+    height: 200px;
+    border-radius:50% ;
+    text-align: center;
+    object-fit: cover;
+    width: 120px;
+}
+
+
+.container{
+    margin: 40px;
+    display:flex;
+    gap: 16px;
+    border-radius: 0%;
+    border-color: none;
+    box-shadow: none;
+    justify-content: center;
+}
+#logo{
+    width: 60px; 
+    height: auto; 
+    border: 1px  #f2c3d3; 
+    border-radius: 50%; 
+    box-shadow: 0 0 15px #5E6167;
+    object-fit: cover;
+    margin: 10px;
+}
+.icone{
+    border-radius: 50%;
+    
+    padding: 10px 10px;
+    
+    width: 78px; 
+    height: 78px; 
+    text-align: center;
+    border: 1px solid rgba(200,200,200);
+    transition: transform 0.5s;
+    border-radius:4px ;
+    background-color: #FFFFFF
+    
+}
+.icone:hover{
+    background-color: #fcf2f5bc;
+    box-shadow:0 10px 15px #232013;
+    text-align: center;
+    object-fit: cover;
+    margin: 0; 
+    font-size: larger;
+    transition:  0.5s;
+    border: 1px solid rgba(200,200,200);
+    color: #232013;
+    transform: scale(1.02);
+}
+
+.transform {
+ scale(1.02);
+}
+
+
+.link{
+    text-decoration: none;
+    color: #5E6167;
+}
+.fa-solid fa-eye
+.click{
+    color:;
+}

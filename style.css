@@ -1,0 +1,23 @@
+/* Write some CSS below */
+div{
+    background-color: antiquewhite;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    padding: 40px;
+    margin: 40px auto;
+    border-radius: 5px;
+    width: 600px;
+}
+img{
+    height: 280px;
+    margin: auto;
+    display: block;
+    margin: 0px auto;
+}
+h1 {
+    text-align: center;
+}
+button {
+    display: block;
+    margin: 0px auto;
+
+}
